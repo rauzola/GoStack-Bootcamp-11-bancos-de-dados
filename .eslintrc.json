@@ -17,6 +17,7 @@
   "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
     "prettier/prettier": "error",
+    "class-methods-use-this": "off",
     "semi": ["error", "always"],
     "quotes": ["error", "double"],
     "import/extensions": ["error", "ignorePackages", { "ts": "never" }]
